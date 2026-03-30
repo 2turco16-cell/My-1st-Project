@@ -1,0 +1,187 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafc;
+  text-align: center;
+  padding: 50px;
+}
+
+.plan-container {
+  display: flex; /* Enable flexbox */
+  justify-content: space-around; /* Space out the cards evenly */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.plan {
+  background-color: white;
+  max-width: 280px;
+  width: 100%;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.plan:hover {
+  transform: translateY(-4px);
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: #4337de; /* Initial color */
+    transform: scale(1); /* Initial scale */
+  }
+  50% {
+    border-color: #ffcc00; /* Change to a different color */
+    transform: scale(1.05); /* Slightly scale up */
+  }
+  100% {
+    border-color: #4337de; /* Back to initial color */
+    transform: scale(1); /* Back to original scale */
+  }
+}
+
+
+.plan--highlighted {
+  border: 2px solid #4337de;
+  animation: borderAnimation 1.5s infinite;
+}
+
+.plan__title {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.plan__price {
+  font-size: 28px;
+  color: #4337de;
+  margin-bottom: 15px;
+}
+
+.plan__price span {
+  font-size: 14px;
+  color: #666;
+}
+
+.plan__feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan__feature {
+  margin: 8px 0;
+  color: #555;
+}
+
+.plan__button {
+  background-color: #4337de;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.planbody {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafc;
+  text-align: center;
+  padding: 50px;
+}
+
+.plan-container {
+  display: flex; /* Enable flexbox */
+  justify-content: space-around; /* Space out the cards evenly */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.plan {
+  background-color: white;
+  max-width: 280px;
+  width: 100%;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.plan:hover {
+  transform: translateY(-4px);
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: #4337de; /* Initial color */
+    transform: scale(1); /* Initial scale */
+  }
+  50% {
+    border-color: #ffcc00; /* Change to a different color */
+    transform: scale(1.05); /* Slightly scale up */
+  }
+  100% {
+    border-color: #4337de; /* Back to initial color */
+    transform: scale(1); /* Back to original scale */
+  }
+}
+
+
+.plan--highlighted {
+  border: 2px solid #4337de;
+  animation: borderAnimation 1.5s infinite;
+}
+
+.plan__title {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.plan__price {
+  font-size: 28px;
+  color: #4337de;
+  margin-bottom: 15px;
+}
+
+.plan__price span {
+  font-size: 14px;
+  color: #666;
+}
+
+.plan_ _feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan__feature {
+  margin: 8px 0;
+  color: #555;
+}
+
+.plan__button {
+  background-color: #4337de;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.plan__button:hover {
+  background-color: #372fc3;
+}button:hover {
+  background-color: #372fc3;
+}
